@@ -1,5 +1,6 @@
 com\taotao\com\taotao\test\TestFastDFS.class
 com\taotao\controller\ItemCatController.class
+com\taotao\controller\ContentCategoryController.class
 com\taotao\controller\ItemController.class
 com\taotao\utils\FastDFSClient.class
 com\taotao\controller\PictureController.class

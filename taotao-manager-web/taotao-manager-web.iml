@@ -65,6 +65,7 @@
     <orderEntry type="library" name="Maven: org.apache.activemq:activemq-all:5.11.2" level="project" />
     <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.23" level="project" />
     <orderEntry type="module" module-name="taotao-manager-interface" />
+    <orderEntry type="module" module-name="taotao-content-interface" />
     <orderEntry type="module" module-name="taotao-manager-pojo" />
     <orderEntry type="module" module-name="fastdfs_client" />
     <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
