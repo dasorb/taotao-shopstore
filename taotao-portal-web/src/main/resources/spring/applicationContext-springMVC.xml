@@ -7,6 +7,9 @@
         http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
+
+    <context:property-placeholder location="classpath:resource/*"/>
+    <mvc:default-servlet-handler/>
     <!-- 配置注解驱动 -->
     <mvc:annotation-driven />
     <!-- 视图解析器 -->
@@ -25,6 +28,7 @@
     <!--注册中心地址-->
     <dubbo:registry protocol="zookeeper" address="192.168.25.128:2181"/>
     <!--引用服务-->
+    <dubbo:reference interface="com.taotao.content.service.ContentService" id="contentService"/>
     <!--<dubbo:reference interface="com.taotao.service.ItemService" id="itemService"/>-->
     <!--<dubbo:reference interface="com.taotao.service.ItemCatService" id="itemCatService"/>-->
 </beans>

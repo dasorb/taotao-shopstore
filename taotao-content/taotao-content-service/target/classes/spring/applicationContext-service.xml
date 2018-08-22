@@ -21,5 +21,6 @@
     <dubbo:protocol name="dubbo" port="20881"/>
     <!--暴露服务接口-->
     <dubbo:service interface="com.taotao.content.service.ContentCategoryService" ref="contentCategoryServiceImpl" timeout="30000"/>
+    <dubbo:service interface="com.taotao.content.service.ContentService" ref="contentServiceImpl" timeout="30000"/>
     <!--<dubbo:service interface="com.taotao.service.ItemCatService" ref="itemCatServiceImpl" timeout="30000"/>-->
 </beans>

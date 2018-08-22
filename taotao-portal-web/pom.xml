@@ -22,6 +22,12 @@
             <groupId>com.taotao</groupId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!--内容工程依赖，首页大广告需要访问-->
+        <dependency>
+            <artifactId>taotao-content-interface</artifactId>
+            <groupId>com.taotao</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- Spring -->
         <dependency>
             <groupId>org.springframework</groupId>

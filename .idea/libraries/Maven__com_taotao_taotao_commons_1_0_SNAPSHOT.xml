@@ -1,13 +1,15 @@
 <component name="libraryTable">
   <library name="Maven: com.taotao:taotao-commons:1.0-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/taotao-parent/taotao-commons/pom.xml!/" />
+      <root url="jar://$PROJECT_DIR$/taotao-commons/pom.xml!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/taotao-parent/taotao-commons/taotao-commons-1.0-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/taotao-commons/taotao-commons-1.0-SNAPSHOT-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/taotao-parent/taotao-commons/taotao-commons-1.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/taotao-commons/taotao-commons-1.0-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
